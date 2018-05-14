@@ -23,15 +23,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/withdrawals/master/_listings/capital-one-devexchange/withdrawals-id-delete.md
-- name: Capital One DevExchange Update a specific existing withdrawal
-  description: Updates the specific withdrawal
+- name: Capital One DevExchange Delete a specific existing withdrawal
+  description: Deletes the specific withdrawal
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Withdrawals
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/withdrawals/master/_listings/capital-one-devexchange/withdrawals-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/withdrawals/master/_listings/capital-one-devexchange/withdrawals-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/withdrawals/master/_listings/capital-one-devexchange/withdrawals-id-delete-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
